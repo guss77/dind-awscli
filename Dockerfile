@@ -1,4 +1,4 @@
-FROM docker
+FROM docker:latest
 
 RUN \
 	apk -Uuv add make groff less python py-pip && \
